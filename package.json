@@ -1,0 +1,19 @@
+{
+  "name": "qibibilosh",
+  "version": "1.0.0",
+  "description": "QIBIBILOSH - Cultural platform with React + Node.js",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["qibibilosh", "cultural", "platform", "react", "nodejs", "fullstack"],
+  "author": "QIBIBILOSH Team",
+  "license": "MIT"
+}

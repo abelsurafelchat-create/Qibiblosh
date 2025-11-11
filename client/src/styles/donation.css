@@ -1,0 +1,561 @@
+/* Donation/Support Page - Clean Styling */
+
+.page-container {
+  background-color: #2B1810;
+  min-height: 100vh;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+/* Page Header */
+.page-header {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #4A3426;
+}
+
+.page-header h1 {
+  font-size: 3.5rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+}
+
+.page-header p {
+  font-size: 1.1rem;
+  color: #C9B896;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  letter-spacing: 1px;
+}
+
+/* Donation Impact */
+.donation-impact {
+  margin-bottom: 60px;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.impact-item {
+  background: rgba(58, 40, 24, 0.3);
+  border: 1px solid #4A3426;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.impact-item h3 {
+  font-size: 1.8rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+
+.impact-item p {
+  font-size: 0.9rem;
+  color: #C9B896;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Donation Form */
+.donation-form {
+  margin-bottom: 80px;
+}
+
+.donation-type,
+.amount-selection,
+.donor-information {
+  margin-bottom: 50px;
+}
+
+/* Type Options */
+.type-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.type-option {
+  background: rgba(58, 40, 24, 0.3);
+  border: 2px solid #4A3426;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.type-option.selected {
+  border-color: #D4AF37;
+  background: rgba(58, 40, 24, 0.5);
+}
+
+.type-option input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #D4AF37;
+}
+
+.type-option span {
+  font-size: 1rem;
+  color: #D4AF37;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Amount Grid */
+.amount-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.amount-btn {
+  padding: 18px;
+  background: rgba(58, 40, 24, 0.3);
+  border: 2px solid #4A3426;
+  color: #D4AF37;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.amount-btn.selected {
+  border-color: #D4AF37;
+  background: rgba(58, 40, 24, 0.5);
+}
+
+.amount-btn:hover {
+  border-color: #D4AF37;
+}
+
+/* Custom Amount */
+.custom-amount {
+  margin-top: 25px;
+}
+
+.custom-amount label {
+  display: block;
+  font-size: 0.95rem;
+  color: #D4AF37;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.custom-input {
+  display: flex;
+  align-items: center;
+  background: rgba(58, 40, 24, 0.4);
+  border: 1px solid #4A3426;
+}
+
+.currency {
+  padding: 14px 18px;
+  color: #D4AF37;
+  font-size: 1rem;
+  font-weight: 600;
+  border-right: 1px solid #4A3426;
+}
+
+.custom-input input {
+  flex: 1;
+  padding: 14px 18px;
+  background: transparent;
+  border: none;
+  color: #D4AF37;
+  font-size: 1rem;
+}
+
+.custom-input input:focus {
+  outline: none;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.95rem;
+  color: #D4AF37;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 18px;
+  background: rgba(58, 40, 24, 0.4);
+  border: 1px solid #4A3426;
+  color: #D4AF37;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #D4AF37;
+}
+
+/* Checkbox Group */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #D4AF37;
+}
+
+.checkbox-label span {
+  font-size: 0.95rem;
+  color: #C9B896;
+}
+
+/* Donation Total */
+.donation-total {
+  background: rgba(58, 40, 24, 0.5);
+  border: 2px solid #D4AF37;
+  padding: 25px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.donation-total h3 {
+  font-size: 1.8rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.monthly-note {
+  font-size: 0.85rem;
+  color: #8B7355;
+  margin: 10px 0 0 0;
+  font-style: italic;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 18px 40px;
+  background: transparent;
+  border: 2px solid #D4AF37;
+  color: #D4AF37;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: #E5C158;
+  color: #E5C158;
+}
+
+/* Why Support */
+.why-support {
+  margin-bottom: 80px;
+  padding: 50px 0;
+  border-top: 1px solid #4A3426;
+}
+
+.support-reasons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.reason {
+  background: rgba(58, 40, 24, 0.3);
+  border: 1px solid #4A3426;
+  padding: 30px 25px;
+}
+
+.reason h3 {
+  font-size: 1.2rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.reason p {
+  font-size: 0.95rem;
+  color: #C9B896;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Other Support */
+.other-support {
+  margin-bottom: 80px;
+  padding: 50px 0;
+  border-top: 1px solid #4A3426;
+}
+
+.support-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.support-option {
+  background: rgba(58, 40, 24, 0.3);
+  border-left: 3px solid #D4AF37;
+  padding: 25px 30px;
+}
+
+.support-option h3 {
+  font-size: 1.1rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.support-option p {
+  font-size: 0.95rem;
+  color: #C9B896;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Bank Details */
+.bank-details {
+  margin-bottom: 80px;
+  padding: 50px 0;
+  border-top: 1px solid #4A3426;
+}
+
+.bank-info-box {
+  background: rgba(58, 40, 24, 0.4);
+  border: 2px solid #4A3426;
+  padding: 40px;
+}
+
+.bank-intro {
+  font-size: 1rem;
+  color: #C9B896;
+  margin-bottom: 25px;
+}
+
+.account-details {
+  margin: 30px 0;
+}
+
+.account-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #4A3426;
+}
+
+.account-row:last-child {
+  border-bottom: none;
+}
+
+.account-label {
+  font-size: 0.95rem;
+  color: #8B7355;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.account-value {
+  font-size: 1rem;
+  color: #D4AF37;
+  font-weight: 600;
+}
+
+.account-number {
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+.bank-note {
+  font-size: 0.9rem;
+  color: #C9B896;
+  margin-top: 25px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Transparency */
+.transparency {
+  padding: 50px 0;
+  border-top: 1px solid #4A3426;
+}
+
+.transparency-content p {
+  font-size: 1rem;
+  color: #C9B896;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.transparency-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+}
+
+.transparency-content li {
+  font-size: 1rem;
+  color: #C9B896;
+  padding: 10px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.transparency-content li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #D4AF37;
+  font-size: 1.2rem;
+}
+
+/* Success Message */
+.success-message {
+  text-align: center;
+  padding: 80px 40px;
+  background: rgba(58, 40, 24, 0.4);
+  border: 2px solid #4A3426;
+  margin-top: 100px;
+}
+
+.success-message h1 {
+  font-size: 3rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 25px 0;
+}
+
+.success-message p {
+  font-size: 1.1rem;
+  color: #C9B896;
+  line-height: 1.8;
+  margin: 0 0 20px 0;
+}
+
+.impact-message {
+  background: rgba(58, 40, 24, 0.5);
+  border: 1px solid #4A3426;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+.impact-message h3 {
+  font-size: 1.5rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+
+.impact-message p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.back-btn {
+  padding: 14px 35px;
+  background: transparent;
+  border: 2px solid #D4AF37;
+  color: #D4AF37;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.back-btn:hover {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: #E5C158;
+  color: #E5C158;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  
+  .page-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .type-options,
+  .amount-grid,
+  .support-reasons,
+  .support-options {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,372 @@
+/* Collaboration Page - Enhanced Styling */
+
+.page-container {
+  background-color: #2B1810;
+  min-height: 100vh;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+/* Page Header */
+.page-header {
+  text-align: center;
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #4A3426;
+}
+
+.page-header h1 {
+  font-size: 4rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  color: #C9B896;
+  font-style: italic;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2.8rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 50px 0;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+section h2::after {
+  content: '✦';
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+/* Sections */
+.collaboration-philosophy,
+.current-collaborations,
+.collaboration-types,
+.partnership-principles,
+.collaborate-with-us,
+.past-collaborations {
+  margin-bottom: 100px;
+}
+
+/* Philosophy Section */
+.philosophy-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.philosophy-content p {
+  font-size: 1.1rem;
+  color: #C9B896;
+  line-height: 1.9;
+  margin-bottom: 25px;
+}
+
+/* Collaborations Grid */
+.collaborations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+}
+
+.collaboration-card {
+  background: rgba(58, 40, 24, 0.4);
+  border: 2px solid #4A3426;
+  padding: 40px;
+}
+
+.collab-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.collab-header h3 {
+  font-size: 1.6rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0;
+  flex: 1;
+}
+
+.status {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.status.ongoing {
+  background: rgba(212, 175, 55, 0.2);
+  color: #D4AF37;
+  border: 1px solid #D4AF37;
+}
+
+.status.completed {
+  background: rgba(139, 115, 85, 0.2);
+  color: #8B7355;
+  border: 1px solid #8B7355;
+}
+
+.collab-partner,
+.collab-type,
+.collab-year {
+  font-size: 0.9rem;
+  color: #C9B896;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.collab-partner strong,
+.collab-type strong,
+.collab-year strong {
+  color: #D4AF37;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.collab-description {
+  font-size: 1rem;
+  color: #C9B896;
+  line-height: 1.8;
+  margin: 20px 0;
+}
+
+/* Types Grid */
+.types-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.type-item {
+  background: rgba(58, 40, 24, 0.3);
+  border-left: 4px solid #D4AF37;
+  padding: 40px 35px;
+}
+
+.type-item h3 {
+  font-size: 1.5rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.type-item p {
+  font-size: 1rem;
+  color: #C9B896;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.type-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.type-item li {
+  font-size: 0.95rem;
+  color: #C9B896;
+  padding: 8px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.type-item li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: #D4AF37;
+  font-size: 0.8rem;
+}
+
+/* Partnership Principles */
+.principles-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.principle {
+  background: rgba(58, 40, 24, 0.4);
+  border: 2px solid #4A3426;
+  padding: 35px 30px;
+  text-align: center;
+}
+
+.principle h4 {
+  font-size: 1.3rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.principle p {
+  font-size: 0.95rem;
+  color: #C9B896;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Collaborate With Us */
+.collaboration-form-info {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.collaboration-form-info > p {
+  font-size: 1.1rem;
+  color: #C9B896;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.requirement {
+  background: rgba(58, 40, 24, 0.4);
+  border: 2px solid #4A3426;
+  padding: 30px 25px;
+}
+
+.requirement h4 {
+  font-size: 1.2rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.requirement p {
+  font-size: 0.95rem;
+  color: #C9B896;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.collaboration-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 14px 50px;
+}
+
+/* Past Collaborations */
+.past-collabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.past-collab {
+  background: rgba(58, 40, 24, 0.3);
+  border: 2px solid #4A3426;
+  padding: 35px 30px;
+  text-align: center;
+}
+
+.past-collab h4 {
+  font-size: 1.3rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+
+.past-collab p {
+  font-size: 0.95rem;
+  color: #C9B896;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.past-year {
+  display: block;
+  font-size: 0.8rem;
+  color: #8B7355;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding-top: 15px;
+  border-top: 1px solid #4A3426;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .collaborations-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .types-grid,
+  .principles-content,
+  .requirements-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .past-collabs {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  
+  .page-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+  }
+  
+  .collaboration-card,
+  .type-item,
+  .principle,
+  .requirement,
+  .past-collab {
+    padding: 25px 20px;
+  }
+}

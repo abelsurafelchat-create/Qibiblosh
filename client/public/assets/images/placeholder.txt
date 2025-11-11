@@ -1,0 +1,8 @@
+This folder is for image assets.
+Add your hero images and event photos here.
+
+Recommended images:
+- hero-image.jpg (1200x800px) - Main hero background
+- event-1.jpg (600x400px) - Event card images
+- event-2.jpg (600x400px) - Event card images
+- event-3.jpg (600x400px) - Event card images

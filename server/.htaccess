@@ -1,0 +1,10 @@
+# Node.js Application Configuration - Place this in public_html/api/
+PassengerEnabled on
+PassengerAppType node
+PassengerStartupFile index.js
+
+# Set Node.js version (adjust based on cPanel available versions)
+# PassengerNodejs /usr/bin/node
+
+# Environment
+SetEnv NODE_ENV production

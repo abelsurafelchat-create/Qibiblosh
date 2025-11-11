@@ -1,0 +1,400 @@
+/* Archive Detail Page - Clean Reading Layout */
+
+.archive-detail-page {
+  background-color: #2B1810;
+  min-height: 100vh;
+  color: #D4AF37;
+}
+
+/* Hero Section - Minimal */
+.detail-hero-section {
+  padding: 80px 60px 60px;
+  background-color: #2B1810;
+  border-bottom: 1px solid #4A3426;
+}
+
+.hero-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-main-title {
+  font-size: 3.5rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0 0 30px 0;
+}
+
+.hero-main-title em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.hero-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.divider-line {
+  width: 80px;
+  height: 1px;
+  background: #4A3426;
+}
+
+.divider-star {
+  font-size: 1rem;
+  color: #D4AF37;
+}
+
+.hero-breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.breadcrumb-link {
+  color: #C9B896;
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-link:hover {
+  color: #D4AF37;
+}
+
+.breadcrumb-separator {
+  color: #4A3426;
+  font-size: 0.7rem;
+}
+
+/* On Display Section - Clean Layout */
+.on-display-section {
+  padding: 80px 60px;
+  background-color: #2B1810;
+}
+
+.display-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.display-title {
+  font-size: 2.5rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.display-subtitle {
+  font-size: 1.8rem;
+  color: #C9B896;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 0 60px 0;
+  text-align: center;
+}
+
+.display-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.display-text {
+  padding-top: 20px;
+}
+
+.text-label {
+  font-size: 1.5rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.display-artwork {
+  position: relative;
+}
+
+.display-artwork img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #4A3426;
+}
+
+.artwork-caption {
+  font-size: 0.9rem;
+  color: #8B7355;
+  font-style: italic;
+  margin: 15px 0 0 0;
+  text-align: right;
+  line-height: 1.6;
+}
+
+/* Embrace Section - Reading Focus */
+.embrace-section {
+  padding: 80px 60px;
+  background-color: #2B1810;
+  border-top: 1px solid #4A3426;
+}
+
+.embrace-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.embrace-artwork {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.embrace-artwork img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #4A3426;
+}
+
+.embrace-content {
+  text-align: left;
+}
+
+.embrace-title {
+  font-size: 2.2rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.embrace-title em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.embrace-text-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.text-column p {
+  font-size: 1.05rem;
+  color: #C9B896;
+  line-height: 1.9;
+  margin: 0 0 20px 0;
+  text-align: justify;
+}
+
+/* Rediscover Section */
+.rediscover-section {
+  padding: 80px 60px;
+  background-color: #2B1810;
+  border-top: 1px solid #4A3426;
+}
+
+.rediscover-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.rediscover-artwork {
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.rediscover-artwork img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #4A3426;
+}
+
+.rediscover-title {
+  font-size: 2.2rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+.rediscover-title em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* Full Width Artwork Section */
+.fullwidth-artwork-section {
+  padding: 60px 0;
+  background-color: #2B1810;
+  border-top: 1px solid #4A3426;
+}
+
+.artwork-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.fullwidth-artwork {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.fullwidth-artwork img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #4A3426;
+}
+
+.artwork-info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.more-link {
+  display: inline-block;
+  color: #D4AF37;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px 30px;
+  border: 1px solid #4A3426;
+  transition: all 0.3s ease;
+}
+
+.more-link:hover {
+  color: #2B1810;
+  background: #D4AF37;
+  border-color: #D4AF37;
+}
+
+/* Exhibition Highlights Section */
+.detail-highlights-section {
+  padding: 80px 60px;
+  background-color: #2B1810;
+  border-top: 1px solid #4A3426;
+}
+
+.detail-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.highlights-wrapper {
+  text-align: left;
+}
+
+.highlights-heading {
+  font-size: 2.5rem;
+  color: #D4AF37;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+.highlight-card {
+  background: rgba(58, 40, 24, 0.3);
+  border-left: 3px solid #D4AF37;
+  padding: 25px 30px;
+}
+
+.highlight-number {
+  font-size: 1.5rem;
+  color: rgba(212, 175, 55, 0.4);
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.highlight-text {
+  font-size: 1.05rem;
+  color: #C9B896;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .display-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .embrace-text-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .detail-hero-section,
+  .on-display-section,
+  .embrace-section,
+  .rediscover-section,
+  .detail-highlights-section {
+    padding: 60px 20px;
+  }
+  
+  .fullwidth-artwork {
+    padding: 0 20px;
+  }
+  
+  .hero-main-title {
+    font-size: 2.5rem;
+  }
+  
+  .display-title {
+    font-size: 2rem;
+  }
+  
+  .display-subtitle {
+    font-size: 1.4rem;
+  }
+  
+  .embrace-title,
+  .rediscover-title {
+    font-size: 1.8rem;
+  }
+  
+  .text-column p {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
