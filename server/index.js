@@ -46,9 +46,6 @@ app.use('*', (req, res) => {
   res.status(404).json({ message: 'Route not found' });
 });
 
-// Listen on all interfaces for cPanel compatibility
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
-  console.log(`Client URL: ${process.env.CLIENT_URL || 'http://localhost:3000'}`);
 });
